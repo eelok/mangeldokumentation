@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Mängeldokumentation Wohnung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            font-size: 1.5em;
+        }
+        h2 {
+            font-size: 1.2em;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+        .room-section {
+            margin-bottom: 30px;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .room-title {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: -20px -20px 20px -20px;
+            border-radius: 5px 5px 0 0;
+        }
+        .defect-item {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        .defect-item:last-child {
+            border-bottom: none;
+        }
+        .image-placeholder {
+            background-color: #f8f8f8;
+            border: 2px dashed #ddd;
+            padding: 20px;
+            text-align: center;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .image-placeholder img {
+            width: 600px;  /* Entspricht ungefähr dem gleichen Seitenverhältnis wie Original */
+            height: 492px; /* Behält das originale Seitenverhältnis bei */
+            object-fit: cover;
+            margin: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        /* Für Fälle mit mehreren Bildern nebeneinander */
+        .image-placeholder img + img {
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #181616;
+        }
+        .footer-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mängeldokumentation</h1>
+        <p>Dokumentation der festgestellten Mängel nach Einzug</p>
+    </div>
+
+    <div class="room-section">
+        <h2 class="room-title">Wohnzimmer/Esszimmer</h2>
+        <div class="defect-item">
+            <p><strong>Mangel #1:</strong> Deutlich sichtbare dunkle Abriebspuren an der Wand</p>
+            <div class="image-placeholder">
+                <p>Abriebspuren Wohnzimmer</p>
+                <img src="bilder/wohnzimmer_mangel_1-1.jpg" alt="Abriebspuren Wohnzimmer">
+                <img src="bilder/wohnzimmer_mangel_1-2.jpg" alt="Abriebspuren Wohnzimmer">
+            </div>
+        </div>
+    </div>
+
+    <div class="room-section">
+        <h2 class="room-title">Küche</h2>
+        <div class="defect-item">
+            <p><strong>Mangel #2:</strong> Defekter Push-to-open Mechanismus am Küchenschrank beim Dunstabzug</p>
+            <div class="image-placeholder">
+                <p>Defekter Mechanismus Küchenschrank</p>
+                <img src="bilder/kueche_mangel_2-1.jpg" alt="Defekter Küchenschrankmechanismus">
+                <img src="bilder/kueche_mangel_2-2.jpg" alt="Defekter Küchenschrankmechanismus">
+            </div>
+        </div>
+    </div>
+
+    <div class="room-section">
+        <h2 class="room-title">Korridor/Eingangsbereich</h2>
+        <div class="defect-item">
+            <p><strong>Mangel #3:</strong> Deutliche schwarze Abriebspuren an der Wand unterhalb der 6 Garderobenhaken</p>
+            <div class="image-placeholder">
+                <p>Abriebspuren Garderobe</p>
+                <img src="bilder/korridor_mangel_3.jpg" alt="Abriebspuren Garderobenwand">
+            </div>
+        </div>
+        <div class="defect-item">
+            <p><strong>Mangel #4:</strong> Leichte Abriebspuren an der gegenüberliegenden Wand</p>
+            <div class="image-placeholder">
+                <p>Abriebspuren gegenüberliegende Wand</p>
+                <img src="bilder/korridor_mangel_4-1.jpg" alt="Gegenüberliegende Wand">
+                <img src="bilder/korridor_mangel_4-2.jpg" alt="Gegenüberliegende Wand">
+                <img src="bilder/korridor_mangel_4-3.jpg" alt="Gegenüberliegende Wand">
+            </div>
+        </div>
+        <div class="defect-item">
+            <p><strong>Mangel #5:</strong> Kleine Beschädigen an der Eingangstür. Absplitterung/Kerbe, Gebrauchsspuren </p>
+            <div class="image-placeholder">
+                <p>Beschädigung Eingangstür</p>
+                <img src="bilder/korridor_mangel_5.jpg" alt="Beschädigung Eingangstür">
+                <img src="bilder/korridor_mangel_5-1.jpg" alt="Beschädigung Eingangstür">
+            </div>
+        </div>
+        <div class="defect-item">
+            <p><strong>Mangel #6:</strong> Deutliche schwarze Abriebspuren an der Wand vor der Toilettentür</p>
+            <div class="image-placeholder">
+                <p>Abriebspuren Toilettenwand</p>
+                <img src="bilder/korridor_mangel_6.jpg" alt="Abriebspuren Toilettenwand">
+            </div>
+        </div>
+        <div class="defect-item">
+            <p><strong>Mangel #7:</strong> Mehrfache Beschädigungen am Türrahmen der Toilettentür:</p>
+            <ul>
+                <li>Mehrere braune/gelbliche Abnutzungspunkte entlang der gesamten Türrahmenleiste</li>
+                <li>Ein deutlich sichtbarer Abrieb/Absplitterung im oberen Bereich des Rahmens</li>
+                <li>Durchgehende Beschädigungen von oben bis unten</li>
+            </ul>
+            <div class="image-placeholder">
+                <p>Beschädigungen Türrahmen Toilette</p>
+                <img src="bilder/korridor_mangel_7-1.jpg" alt="Türrahmen Toilette oben">
+                <img src="bilder/korridor_mangel_7-2.jpg" alt="Türrahmen Toilette mitte">
+                <img src="bilder/korridor_mangel_7-3.jpg" alt="Türrahmen Toilette unten">
+                <img src="bilder/korridor_mangel_7-4.jpg" alt="Türrahmen Toilette unten">
+            </div>
+        </div>
+        <div class="defect-item">
+            <p><strong>Mangel #8:</strong> Gebrauchsspuren an den Türrahmen von Schlafzimmer 1 und 2</p>
+            <div class="image-placeholder">
+                <p>Gebrauchsspuren Türrahmen Schlafzimmer 1</p>
+                <img src="bilder/korridor_mangel-schlaffzimmer-gross_8-1.jpg" alt="Türrahmen Schlafzimmer 1">
+                <img src="bilder/korridor_mangel-schlaffzimmer-gross_8-2.jpg" alt="Türrahmen Schlafzimmer 1">
+                <img src="bilder/korridor_mangel-schlaffzimmer-gross_8-3.jpg" alt="Türrahmen Schlafzimmer 1">
+                <img src="bilder/korridor_mangel-schlaffzimmer-gross_8-4.jpg" alt="Türrahmen Schlafzimmer 1">
+                <p>Gebrauchsspuren Türrahmen Schlafzimmer 2</p>
+                <img src="bilder/korridor_mangel_schlaffzimmer-klein_8-1.jpg" alt="Türrahmen Schlafzimmer 2">
+                <img src="bilder/korridor_mangel_schlaffzimmer-klein_8-2.jpg" alt="Türrahmen Schlafzimmer 2">
+                <img src="bilder/korridor_mangel_schlaffzimmer-klein_8-3.jpg" alt="Türrahmen Schlafzimmer 2">
+            </div>
+        </div>
+    </div>
+
+    <div class="room-section">
+        <h2 class="room-title">Badezimmer</h2>
+        <div class="defect-item">
+            <p><strong>Mangel #9:</strong> Blauer Kunststoff-Haken an der Wand rechts neben dem Waschbecken</p>
+            <div class="image-placeholder">
+                <p>Kunststoff-Haken Badezimmer</p>
+                <img src="bilder/badezimmer_mangel_9.jpg" alt="Kunststoff-Haken">
+            </div>
+        </div>
+        <div class="defect-item">
+            <p><strong>Mangel #10:</strong> Metallobjekt an der Wand links neben der Toilette</p>
+            <div class="image-placeholder">
+                <p>Metallobjekt Badezimmer</p>
+                <img src="bilder/badezimmer_mangel_10.jpg" alt="Metallobjekt">
+            </div>
+        </div>
+    </div>
+
+    <div class="room-section">
+        <h2 class="room-title">Schlafzimmer 1 (groß)</h2>
+        <div class="defect-item">
+            <p><strong>Mangel #11:</strong> Deutlich sichtbare dunkle Abriebspuren an den Wänden</p>
+            <div class="image-placeholder">
+                <p>Abriebspuren Schlafzimmer 1</p>
+                <img src="bilder/schlafzimmer-gross_mangel_11-1.jpg" alt="Abriebspuren Schlafzimmer 1">
+                <img src="bilder/schlafzimmer-gross_mangel_11-2.jpg" alt="Abriebspuren Schlafzimmer 1">
+                <img src="bilder/schlafzimmer-gross_mangel_11-3.jpg" alt="Abriebspuren Schlafzimmer 1">
+                <img src="bilder/schlafzimmer-gross_mangel_11-4.jpg" alt="Abriebspuren Schlafzimmer 1">
+                <img src="bilder/schlafzimmer-gross_mangel_11-5.jpg" alt="Abriebspuren Schlafzimmer 1">
+                <img src="bilder/schlafzimmer-gross_mangel_11-6.jpg" alt="Abriebspuren Schlafzimmer 1">
+            </div>
+        </div>
+    </div>
+
+    <div class="room-section">
+        <h2 class="room-title">Schlafzimmer 2 (klein)</h2>
+        <div class="defect-item">
+            <p><strong>Mangel #12:</strong> Deutlich sichtbare dunkle Abriebspuren, Spuren von Nagelflecken an den Wänden, </p>
+            <div class="image-placeholder">
+                <p>Abriebspuren Schlafzimmer 2</p>
+                <img src="bilder/schlafzimmer-klein-mangel_12-1.jpg" alt="Abriebspuren Schlafzimmer 2">
+                <img src="bilder/schlafzimmer-klein-mangel_12-2.jpg" alt="Abriebspuren Schlafzimmer 2">
+                <img src="bilder/schlafzimmer-klein-mangel_12-3.jpg" alt="Abriebspuren Schlafzimmer 2">
+                <img src="bilder/schlafzimmer-klein-mangel_12-4.jpg" alt="Abriebspuren Schlafzimmer 2">
+                <img src="bilder/schlafzimmer-klein-mangel_12-5.jpg" alt="Abriebspuren Schlafzimmer 2">
+            </div>
+        </div>
+        <div class="defect-item">
+            <p><strong>Mangel #13:</strong>Absplitterungen an der Tür</p>
+            <div class="image-placeholder">
+                <p>Türbeschädigungen Schlafzimmer 2</p>
+                <img src="bilder/schalffzimmer-tuer-mangel-13-1.jpg" alt="Türbeschädigungen Schlafzimmer 2">
+                <img src="bilder/schalffzimmer-tuer-mangel-13-2.jpg" alt="Türbeschädigungen Schlafzimmer 2">
+                <img src="bilder/schalffzimmer-tuer-mangel-13-3.jpg" alt="Türbeschädigungen Schlafzimmer 2">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-item">
+            <strong>Datum der Dokumentation:</strong> 6.12.2025
+        </div>
+        <div class="footer-item">
+            <strong>Mietername:</strong> Petri Tim und Maria
+        </div>
+        <div class="footer-item">
+            <strong>Anschrift:</strong> Obere Hauptgasse 46, 3600 Thun, Schweiz
+        </div>
+    </div>
+</body>
+</html>
